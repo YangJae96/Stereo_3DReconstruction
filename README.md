@@ -8,7 +8,7 @@ PSMNet=> " https://github.com/JiaRenChang/PSMNet "
 This project is for 2020-1 semester Capstone Project. 
 
 ## 1. Contributor
-- Jae Won Yang
+- Jae Won Yang, Jae Won U
 
 ## 2. Version
 - python3.6
