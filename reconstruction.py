@@ -10,10 +10,6 @@ from PSMNet import compute_disparity
 parser = argparse.ArgumentParser(description='Stereo 3D Reconstruction')
 parser.add_argument('--folder_name', default='chair.png',
                     help='dataset folder name')
-# parser.add_argument('--left_image', default='left.png',
-#                     help='original left image')
-# parser.add_argument('--right_image', default='right.png',
-#                     help='original right image')
 
 args = parser.parse_args()
 path = 'dataset/'+args.folder_name
