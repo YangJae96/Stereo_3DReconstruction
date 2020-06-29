@@ -28,6 +28,6 @@ This project is for 2020-1 semester Capstone Project.
 ## 5. Add custom dataset
 - Stereo Datasets => "https://vision.middlebury.edu/stereo/data/scenes2014/"
 - Download the dataset zip file 
-- Create dir -> (The dir name will be an argument when you type in the command)
+- Create dir inside the dataset dir -> (The dir name will be an argument when you type in the command)
 - Put the calib.txt, im0.png, im1.png inside the (Your dataset) dir. 
-- Then Run "python3 reconstruction.py --folder_name (Your data dir name)"
+- Then Run "python3 reconstruction.py --folder_name (Your data dir name inside dataset dir)"
