@@ -1,11 +1,8 @@
 import time
-import skimage.io
-import matplotlib.pyplot as plt
 import cv2 as cv
 import numpy as np
 import argparse
 import os
-import plyfile
 import open3d 
 import io
 from PSMNet import compute_disparity

@@ -11,7 +11,6 @@ import time
 import math
 from .models import *
 import cv2
-from PIL import Image
 
 # 2012 data /media/jiaren/ImageNet/data_scene_flow_2012/testing/
 

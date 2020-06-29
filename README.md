@@ -1,24 +1,29 @@
 # Stereo_3DReconstruction
+3D Reconstruction from Stereo Images. It Computes the disparity using PSMNet Architecture 
+Model and then triangulate the 3D Points. Finally, 3D Points are lastly visualized using Open3D.
+
+PSMNet=> " https://github.com/JiaRenChang/PSMNet "
 
 # CapStone Project
-2020학년도 1학기 캡스톤디자인 프로젝트로 Stereo 이미지에 대한 3D Reconstruction을 만들기를 위한 레포지토리입니다.
+This project is for 2020-1 semester Capstone Project. 
 
 ## 1. Contributor
-- 양재원
+- Jae Won Yang
 
 ## 2. Version
 - python3.6
+- Open3d 0.10
 - torch1.5 and torchvision 0.6
 - Cuda >=10.1 
 - Ubuntu 18.04
-- Multiple GPU: Nvidia Titan X
+- Multiple GPU: Nvidia Titan X (Use Dataparallel GPU Number 2 and 3)
 
 ## 3. Build
 - git clone "https://github.com/YangJae96/Stereo_3DReconstruction.git"
 - Run  "pip3 install -r requirments.txt"
 
 ## 4. Run Demo
-- Command: python3 reconstruction.py --folder_name chair
+- Command: "python3 reconstruction.py --folder_name chair"
 
 ## 5. Add custom dataset
 - Stereo Datasets => "https://vision.middlebury.edu/stereo/data/scenes2014/"
