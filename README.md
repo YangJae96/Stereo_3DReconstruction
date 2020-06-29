@@ -1,6 +1,6 @@
 # Stereo_3DReconstruction
-3D Reconstruction from Stereo Images. It Computes the disparity using PSMNet Architecture 
-Model and then triangulate the 3D Points. Finally, 3D Points are lastly visualized using Open3D.
+3D Reconstruction from Stereo Images. Our code Computes the disparity using PSMNet Architecture 
+Model and then triangulate the 3D Points. Finally, 3D Points are visualized using Open3D.
 
 PSMNet=> " https://github.com/JiaRenChang/PSMNet "
 
