@@ -25,9 +25,8 @@ This project is for 2020-1 semester Capstone Project.
 ## 4. Run Demo
 - Command: "python3 reconstruction.py --folder_name chair"
 <div>
-
 <img width="200" src = "https://user-images.githubusercontent.com/57695621/89095012-b7648f80-d404-11ea-9b59-305116bd41c9.PNG">
-![chair_reconstruction3D](https://user-images.githubusercontent.com/57695621/89094967-5937ac80-d404-11ea-8f61-9b478471c831.PNG)
+<img width="200" src = "https://user-images.githubusercontent.com/57695621/89094967-5937ac80-d404-11ea-8f61-9b478471c831.PNG">
 </div>
 
 ## 5. Add custom dataset
